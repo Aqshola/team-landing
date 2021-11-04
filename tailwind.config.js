@@ -5,7 +5,14 @@ module.exports = {
     fontFamily: {
       dmsans: ['"DM Sans"', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        pink: {
+          primary: '#EA3A60',
+        },
+        'black-primary': '#0F2137',
+      },
+    },
   },
   variants: {
     extend: {},
